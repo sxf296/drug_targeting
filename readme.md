@@ -1,6 +1,4 @@
-Version 0.9.3 for python2 or python3
-
-Please contact Mike Fang at sxf296@case.edu for any questions.
+Please contact Mike Fang at sxf296@case.edu for any questions. Publication currently accepted.
 
 # Dependencies
 
@@ -8,7 +6,7 @@ numpy, pandas
 
 # Drug Perturbation GSEA (dpGSEA), previously known as dtGSEA
 
-A drug-gene target enrichment technique utilizing a modified GSEA approach, and uses prior drug-defined gene sets in the form of proto-matrix files: PM(protomatrix), L1000 or CMAP(derived from), FC or P(ranked by), top 20 or 50(number of genes).
+A drug-gene target enrichment technique utilizing a modified GSEA approach, and uses prior drug-defined gene sets in the form of proto-matrix (pm) files: these are derived from either CMAP or L1000 database labeled as L1K or CM respectively. The designation PXX following the label gives the size of the signatures defined within.
 
 # How to use
 
@@ -23,7 +21,9 @@ The following flags are listed below:
 * -sd SETSEED, --setseed SETSEED
 * -o OUT, --out OUT (output file names, results will be tab delimited)
 
-Toy example: python dpGSEA.py -tt CD71pos_nonResvsRes.csv -dr PM_L1000_FC50.csv -i 1000 -o ResVsnonResResults.tsv
+# Example
+
+python dpGSEA.py -tt CD71.csv -dr pm/L1K_P10.csv -i 1000 -o results.tsv
 
 # Output file
 
