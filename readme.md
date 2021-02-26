@@ -1,4 +1,5 @@
-Please contact Mike Fang at sxf296@case.edu for any questions. Publication currently accepted.
+Publication: https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-020-03929-0
+Contacts: Mike Fang at sxf296@case.edu or Mark Cameron at mjc230@case.edu
 
 # Dependencies
 
