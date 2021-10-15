@@ -25,7 +25,7 @@ The following flags are listed below:
 
 # Example
 
-python dpGSEA.py -tt CD71.csv -dr pm/L1K_P10.csv -i 1000 -o results.tsv
+python dpGSEA.py -tt CD71.csv -dr pms/L1K_P10.csv -i 1000 -o results.tsv
 
 # Output file
 
